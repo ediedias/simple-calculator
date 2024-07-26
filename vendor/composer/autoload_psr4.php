@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Edied\\SimpleCalculator\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/src'),
 );

@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Simple Calculator</title>
-        <link rel="styleshee" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-100">
         <div class="container mx-auto mt-10">
             <div class="calculator bg-white p-8 rounded shadow-md">
                 <h2 class="text-2xl font-bold mb-5">Simple Calculator</h2>
-                <form action="?action=calculate">
+                <form action="?action=calculate" method="POST">
                     <div class="mb-4">
                         <input type="number" name="num1" placeholder="Enter first number" class="w-full p-2 border rounded" required>
                     </div>
